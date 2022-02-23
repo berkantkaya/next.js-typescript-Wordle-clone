@@ -1,15 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Wordle from '../components/Wordle/Wordle'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Wordle from "../components/Wordle/Wordle";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Wordle puzzleword='admin'/>
-     </div>
-  )
-}
+      <Wordle />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
