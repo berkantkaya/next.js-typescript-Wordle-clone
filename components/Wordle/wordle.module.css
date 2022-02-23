@@ -1,0 +1,51 @@
+.wordle {
+  font-family: monospace;
+  font-size: 60px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  padding: 20px 0;
+  font-size: 48px;
+}
+
+.boardPositioner {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.wordleBoard {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+}
+
+.char {
+  border: 3px solid var(--white);
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.message {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
